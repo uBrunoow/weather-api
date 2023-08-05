@@ -355,8 +355,8 @@ const page = () => {
         {bellIsOpen && (
           <motion.div>
             <div className='bg-white h-[250px] w-[300px] absolute top-[100px] right-[40px] z-40 rounded-[10px] box-shadow p-5'>
-              <h1 className=' text-black text-[20px] font-semibold'>This is my Weather App</h1>
-              <p>If you liked this project, check out my github and leave a star to help me out. </p>
+              <h1 className=' text-black text-[20px] font-semibold'>Este é o meu aplicativo de clima</h1>
+              <p>Se você gostou deste projeto, confira meu github e deixe uma estrela para me ajudar. </p>
               <img src="https://i.redd.it/wqdlbd8opvo91.gif" alt="" className='h-[100px] w-[100px] my-5'/>
               <span className='absolute bottom-2 right-2 bg-black rounded-full h-10 w-10 flex items-center justify-center box-shadow hover:opacity-[0.5]'>
                 <a href="https://github.com/uBrunoow/weather-api" target='_blank' className=''><Github className='text-white'/></a>
